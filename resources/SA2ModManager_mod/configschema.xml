@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ConfigSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonicretro.org">
+	<Groups>
+        <Group name="Settings" display="Settings">
+			<Property name="Chao Names" type="bool" defaultvalue="true">
+				<HelpText>
+					Whether to display the player's Chao name during a Chao Race or Chao Karate.
+					Enable if there is any personal information in your Chao's name.
+				</HelpText>
+			</Property>
+			<Property name="Log on RPC Update" type="bool" defaultvalue="true">
+				<HelpText>
+					Whether to output to log on rich presence update.
+				</HelpText>
+			</Property>
+			<Property name="Debug Mode" type="bool" defaultvalue="false">
+				<HelpText>
+					Hover to read all of this. 
+
+					Enables free cam toggle, freeze toggle and load cutscene from clipboard.
+
+					from free_cam.h:
+
+					// yet another free cam, hidden inside of this rpc mod
+
+					// free cam I made for taking screenshots of the game.
+					// not to be confused with kellsnc's Free Cam mod, which - as of now - released
+					// four hours ago.
+					// this is my own free cam mod, which I used to take screenshots, it has been
+					// updated to try and use the latest functions and values in the mod loader.
+					// you can fly around, save and load location, move the player etc...
+					// sometimes it doesn't work, but it's better than nothing.
+
+					// why? I wanted some features other free cams did not have, and controls that 
+					// I could choose that I liked.
+
+					// controls:
+					//   debug mode enabled:
+					//     toggle free cam: L + R + dpad up
+					//     toggle freeze: L + R + dpad left
+					//     load a cutscene from index in clipboard (only works in level and once):
+					//       L + R + dpad right
+					//     free cam enabled:
+					//       translate camera:                   left stick / A / B
+					//       rotate camera:                      right stick
+					//       snap camera rotation to 15 degrees: X / Y
+					//       toggle player visibility:           dpad down
+					//       log camera position + rotation:     start
+					//       read camera position from clipboard:
+					//         input: L + R + start
+					//         format like:
+					//           position: { x: 1.2, y: 2.3, z: 3.4 }
+					//           yaw: 42
+					//           pitch: 64
+					//       move player to camera position (useful for loading objects):
+					//         L + R + dpad down
+				</HelpText>
+			</Property>
+        </Group>
+	</Groups>
+</ConfigSchema>

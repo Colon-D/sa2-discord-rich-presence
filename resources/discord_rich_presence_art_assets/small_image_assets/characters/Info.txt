@@ -1,0 +1,8 @@
+I tried to make the circle border match that of the character select border. Specifically I used "HD GUI for Character Select Plus" as a reference: https://gamebanana.com/mods/33162
+
+SVG files were used as I wanted to learn how to make vector images. Maybe a bad choice considering the characters were raster images, but too late now.
+
+I could not find official art of Super Shadow, so I used this fan art: https://www.deviantart.com/mrmephilesthedark/art/Super-Shadow-682421551
+This was then further edited by me to glow to match Super Sonic.
+
+I found the official art via the Sonic News Network. Specifically their galleries for Sonic Adventure, Sonic Adventure 2 and perhaps the Sonic Art Assets DVD (I can't remember).

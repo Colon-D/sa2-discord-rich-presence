@@ -1,0 +1,36 @@
+I tried to use mods that I felt kept the intended art style of the game or whatever.
+
+Mods used for event screenshots:
+- No Model Tinting: https://gamebanana.com/mods/48874 (might not matter)
+- Restored GUN Logos: https://gamebanana.com/mods/48914 (might not matter)
+- SA2 ESRGAN HD Textures: https://gamebanana.com/mods/48913 (Max Quality)
+- Cutscene Revamp: https://gamebanana.com/mods/48872
+- Dreamcast Characters: https://gamebanana.com/wips/48797 (I forgot to disable this)
+Codes used for level screenshots:
+- Disable Subtitles
+- Enable Cutscene Debug Features
+
+I have no way to accurately recreate screenshots. I just played events and
+hoped to take a reasonable screenshot at the right time.
+
+Some events I could not take distinct enough screenshots, so they use the same
+screenshot.
+Specifically these events use screenshots corresponding to these other events:
+  event 126 (rouge vs. knuckles aftermath)   : event  24 (knuckles vs. rouge aftermath)
+  event 130 (shadow and sonic's final battle): event  27 (sonic and shadow's final battle)
+  event 361 (english sa2b intro)             : event 360 (japanese sa2b intro)
+  event 401 (sa2 intro)                      : event 350 (sa2 intro dreamcast)
+  event 428 (the eclipse cannon malfunctions): event  28 (hero story ending)
+  event 609 (the ark is neutralized)         : event 208 (shadow saves the world)
+
+Perhaps I could have focused on another character, like I did during some of
+the character introductions? Welp, I did not.
+
+Event filenames use ids as events do not have an official name, that I know of.
+
+For most events, the crop batch file should be able to quickly crop from
+1080p down to the center 1024x1024 using ffmpeg. This REPLACES the file.
+Else, manually crop.
+
+There are no screenshots for Gameplay Events, as I can not view these events
+manually.

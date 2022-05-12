@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0" y="0" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512">
+  <style type="text/css">
+    .st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#000000;stroke-width:39;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:url(#SVGID_3_);stroke-width:16;stroke-miterlimit:10;}
+	.st3{fill:url(#SVGID_4_);}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:26;stroke-miterlimit:10;}
+  </style>
+  <circle id="Background_Color" cx="256" cy="256" r="224" class="st0"/>
+  <g id="Asset">
+    <g id="Character_Circle">
+      <defs>
+        <circle id="SVGID_1_" cx="256" cy="256" r="224"/>
+      </defs>
+      <clipPath id="SVGID_2_">
+        <use xlink:href="#SVGID_1_" overflow="visible"/>
+      </clipPath>
+      <g clip-path="url(#SVGID_2_)">
+        <image xlink:href="Super Sonic.png" id="Character" width="1000" height="1664" overflow="visible" transform="translate(-144 -416)"/>
+      </g>
+    </g>
+    <g id="Outline">
+      <circle cx="256" cy="256" r="236.5" class="st1"/>
+      <radialGradient id="SVGID_3_" cx="256" cy="256" r="256" gradientUnits="userSpaceOnUse">
+        <stop offset=".978" stop-color="#121212"/>
+        <stop offset="1" stop-color="#171717"/>
+      </radialGradient>
+      <circle cx="256" cy="256" r="248" class="st2"/>
+      <radialGradient id="SVGID_4_" cx="256" cy="256" r="217" gradientUnits="userSpaceOnUse">
+        <stop offset=".93" stop-color="#060606" stop-opacity="0"/>
+        <stop offset=".994" stop-color="#030303" stop-opacity=".282"/>
+        <stop offset="1" stop-color="#020202" stop-opacity=".31"/>
+      </radialGradient>
+      <circle cx="256" cy="256" r="217" class="st3"/>
+      <circle cx="256" cy="256" r="238.5" class="st4"/>
+    </g>
+  </g>
+</svg>

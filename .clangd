@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-m32, -Wno-c++98-compat]

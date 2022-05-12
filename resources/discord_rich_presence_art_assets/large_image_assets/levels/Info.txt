@@ -1,0 +1,629 @@
+I tried to use mods that I felt kept the intended art style of the game or whatever.
+
+Mods used for level screenshots:
+- No Model Tinting: https://gamebanana.com/mods/48874
+- Restored GUN Logos: https://gamebanana.com/mods/48914
+- SA2 ESRGAN HD Textures: https://gamebanana.com/mods/48913 (Max Quality)
+- Higher Draw Distance: https://gamebanana.com/mods/48947 (when it doesn't cause the level to crash)
+- Presentable Eggman Stages: https://gamebanana.com/mods/48956
+- Kart Stage Water Fix: https://gamebanana.com/mods/325723
+- Cutscene Revamp: https://gamebanana.com/mods/48872
+Codes used for level screenshots:
+- Disable HUD
+- Disable HUD: Prompts/Radar (Stops EQ Guards/No Titlecards)
+
+unknown.png uses a texture stolen from:
+  HD GUI for Character Select Plus: https://gamebanana.com/mods/33162
+
+Some screenshots were taken in older versions of my free_cam, thus they might
+have accidently culled out some objects.
+To recreate a screenshot:
+- enable "Debug Mode" in this mods config
+- visit the level
+- enable free_cam with L + R + dpad up
+- copy the three lines containing the position - yaw and pitch to clipboard
+- load the position using L + R + Start
+  - you might need to teleport the player for objects to load
+    (L + R + dpad down)
+  - maybe freeze time and make the player invisible
+    (L + R + dpad left and dpad down respectively)
+- Take a screenshot
+- crop the screenshot
+  - For most levels, the crop batch file should be able to quickly crop from
+    1080p down to the center 1024x1024 using ffmpeg. This REPLACES the file.
+  - If there is a HUD that you can not hide, you will need to manually crop.
+
+The level names are NOT consistant between the cropped folder, the uncropped folder, and what is uploaded to Discord. I can not be bothered going through all of them to make them consistant. All that matters, is that on Discord, each asset is named to that which the event_asset_name() and asset_name() functions return.
+
+from free_cam.h:
+
+// yet another free cam, hidden inside of this rpc mod
+
+// free cam I made for taking screenshots of the game.
+// not to be confused with kellsnc's Free Cam mod, which - as of now - released
+// four hours ago.
+// this is my own free cam mod, which I used to take screenshots, it has been
+// updated to try and use the latest functions and values in the mod loader.
+// you can fly around, save and load location, move the player etc...
+// sometimes it doesn't work, but it's better than nothing.
+
+// why? I wanted some features other free cams did not have, and controls that 
+// I could choose that I liked.
+
+// controls:
+//   debug mode enabled:
+//     toggle free cam: L + R + dpad up
+//     toggle freeze: L + R + dpad left
+//     load a cutscene from index in clipboard (only works in level and once):
+//       L + R + dpad right
+//     free cam enabled:
+//       translate camera:                   left stick / A / B
+//       rotate camera:                      right stick
+//       snap camera rotation to 15 degrees: X / Y
+//       toggle player visibility:           dpad down
+//       log camera position + rotation:     start
+//       read camera position from clipboard:
+//         input: L + R + start
+//         format like:
+//           position: { x: 1.2, y: 2.3, z: 3.4 }
+//           yaw: 42
+//           pitch: 64
+//       move player to camera position (useful for loading objects):
+//         L + R + dpad down
+
+Despite supporting the mod "Chao Karate: Buster's Tournament" in the Large
+Image Text, I can not screenshot it. My PC seems to create visual errors with
+that mod. Triangles appear to render in random order.
+https://gamebanana.com/mods/48869
+
+Disable "SA2 ESRGAN HD Textures" if taking screenshots for the mod "Pyre Roads
+DOUBLE PACK" or "Lethal Highway".
+https://gamebanana.com/mods/307565 and https://gamebanana.com/mods/361081.
+
+sa2-discord-rich-presence:
+        current level: Lost Colony 2P
+        free cam:
+                position: { x: -199.816, y: 36, z: -23.9534 }
+                yaw: 6.58095
+                pitch: -11.2667
+sa2-discord-rich-presence:
+        current level: Dry Lagoon 2P
+        free cam:
+                position: { x: 376.741, y: 336.716, z: 1430.68 }
+                yaw: 0
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Downtown Race
+        free cam:
+                position: { x: -0.0989951, y: -627.678, z: 1024.6 }
+                yaw: 450
+                pitch: -30
+sa2-discord-rich-presence:
+        current level: City Escape
+        free cam:
+                position: { x: 323.786, y: -6742.52, z: 8621.67 }
+                yaw: -450
+                pitch: -20.0571
+sa2-discord-rich-presence:
+        current level: Metal Harbor
+        free cam:
+                position: { x: 1950.14, y: -196.598, z: -6919.71 }
+                yaw: -23.9237
+                pitch: 5.2
+        used for: Metal Harbor 2P
+sa2-discord-rich-presence:
+        current level: White Jungle
+        free cam:
+                position: { x: 11546.7, y: -3552.6, z: -7362.86 }
+                yaw: 699.962
+                pitch: 11.0476
+sa2-discord-rich-presence:
+        current level: Green Forest
+        free cam:
+                position: { x: -0.688429, y: -853.2, z: 1234.46 }
+                yaw: 90
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Sky Rail
+        free cam:
+                position: { x: -2438.87, y: -3974.93, z: 9394.06 }
+                yaw: 240
+                pitch: 30
+sa2-discord-rich-presence:
+        current level: Radical Highway
+        free cam:
+                position: { x: -6394.26, y: -5103.8, z: -10891.8 }
+                yaw: 435
+                pitch: 15
+sa2-discord-rich-presence:
+        current level: Final Rush
+        free cam:
+                position: { x: 6224.08, y: -14252.4, z: 13609.8 }
+                yaw: 1110
+                pitch: -43.5048
+sa2-discord-rich-presence:
+        current level: Final Chase
+        free cam:
+                position: { x: 4180.23, y: -3313.19, z: 11087 }
+                yaw: 240
+                pitch: -68.8095
+sa2-discord-rich-presence:
+        current level: Aquatic Mine
+        free cam:
+                position: { x: 149.026, y: 146.8, z: -228.223 }
+                yaw: 120.838
+                pitch: 3.50476
+        for: Pool Quest
+sa2-discord-rich-presence:
+        current level: Planet Quest
+        free cam:
+                position: { x: -56.7544, y: 1837.27, z: -827.792 }
+                yaw: 144.143
+                pitch: -49.1905
+sa2-discord-rich-presence:
+        current level: Dry Lagoon 2P
+        free cam:
+                position: { x: 381.424, y: 336.648, z: 1432.05 }
+                yaw: 0.971429
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Aquatic Mine
+        free cam:
+                position: { x: 76.5649, y: -34.9991, z: 37.7277 }
+                yaw: -733.552
+                pitch: -15
+sa2-discord-rich-presence:
+        current level: Egg Quarters
+        free cam:
+                position: { x: 974.23, y: -24.9059, z: 974.687 }
+                yaw: -855
+                pitch: 22.6857
+sa2-discord-rich-presence:
+        current level: Security Hall
+        free cam:
+                position: { x: 443.397, y: -693.343, z: 275.091 }
+                yaw: -915
+                pitch: -15
+sa2-discord-rich-presence:
+        current level: Wild Canyon
+        free cam:
+                position: { x: 369.326, y: 990.688, z: 82.4855 }
+                yaw: -845.771
+                pitch: -45.6857
+        for: Wild Canyon 2P
+sa2-discord-rich-presence:
+        current level: Wild Canyon
+        free cam:
+                position: { x: -276.384, y: 949.393, z: -31.5993 }
+                yaw: -930
+sa2-discord-rich-presence:
+        current level: Pumpkin Hill
+        free cam:
+                position: { x: 1307.92, y: -974.698, z: -774.645 }
+                yaw: -915
+                pitch: -1.44762
+sa2-discord-rich-presence:
+        current level: Meteor Herd
+        free cam:
+                position: { x: 827.877, y: -592, z: -441.826 }
+                yaw: -945.01
+                pitch: 21.7143
+sa2-discord-rich-presence:
+        current level: Mad Space
+        free cam:
+                position: { x: -770.773, y: 1400.34, z: -904.857 }
+                yaw: -1022.64
+                pitch: 21.6095
+sa2-discord-rich-presence:
+        current level: Death Chamber
+        free cam:
+                position: { x: -284.156, y: 221.642, z: 139.996 }
+                yaw: -735
+                pitch: -9.64762
+		for: Death Chamber 2P
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Death Chamber
+        free cam:
+                position: { x: -141.592, y: 111.378, z: -117.944 }
+                yaw: -2388.8
+                pitch: 13.4953
+sa2-discord-rich-presence:
+        current level: Deck Race
+        free cam:
+                position: { x: -0.436645, y: -119.6, z: 1616.51 }
+                yaw: -88.0381
+                pitch: -2.93333
+sa2-discord-rich-presence:
+        current level: Pyramid Race
+        free cam:
+                position: { x: -43.1762, y: 34.6501, z: -1114.81 }
+                yaw: -73.3524
+                pitch: -2.8
+sa2-discord-rich-presence:
+        current level: Weapons Bed 2P
+        free cam:
+                position: { x: 260.434, y: -77.648, z: 302.099 }
+                yaw: 208.705
+                pitch: -4.29524
+sa2-discord-rich-presence:
+        current level: Iron Gate 2P
+        free cam:
+                position: { x: 128.526, y: 134.855, z: 241.2 }
+                yaw: 243.371
+                pitch: -27.2095
+sa2-discord-rich-presence:
+        current level: Hidden Base 2P
+        free cam:
+                position: { x: 49.2181, y: 78.6179, z: 142.091 }
+                yaw: 257.581
+                pitch: -10.5619
+sa2-discord-rich-presence:
+        current level: Mission Street 2P
+        free cam:
+                position: { x: -524.259, y: 28.8296, z: 56.4509 }
+                yaw: -30
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Sand Ocean 2P
+        free cam:
+                position: { x: 65.1575, y: 48.1774, z: -76.4639 }
+                yaw: -100.724
+                pitch: 8.20952
+sa2-discord-rich-presence:
+        current level: Cosmic Wall 2P
+        free cam:
+                position: { x: -254.902, y: 235.916, z: 152.229 }
+                yaw: -44.5238
+                pitch: -31.0095
+sa2-discord-rich-presence:
+        current level: Eternal Engine 2P
+        free cam:
+                position: { x: -135.285, y: 19.6889, z: 156.362 }
+                yaw: -50.3523
+                pitch: -13.2
+sa2-discord-rich-presence:
+        current level: Route 101
+        free cam:
+                position: { x: 15459, y: -2241.81, z: 3741.18 }
+                yaw: 43.3903
+                pitch: -3.52382
+sa2-discord-rich-presence:
+        current level: Route 280
+        free cam:
+                position: { x: 8252.59, y: -2192.39, z: -12914.3 }
+                yaw: 614.077
+                pitch: -18.1334
+sa2-discord-rich-presence:
+        current level: Mission Street
+        free cam:
+                position: { x: 6779.12, y: 606.599, z: -6894.32 }
+                yaw: -180
+                pitch: 7.72381
+sa2-discord-rich-presence:
+        current level: Iron Gate
+        free cam:
+                position: { x: 2723.03, y: -638.4, z: -345.506 }
+                yaw: -414.38
+                pitch: 1.41906
+sa2-discord-rich-presence:
+        current level: Prison Lane
+        free cam:
+                position: { x: -2041.67, y: 287.23, z: -710.235 }
+                yaw: -219.486
+                pitch: -7.36189
+sa2-discord-rich-presence:
+        current level: Dry Lagoon
+        free cam:
+                position: { x: 253.24, y: 5.07375, z: -90.1671 }
+                yaw: 503.637
+                pitch: 4.2381
+sa2-discord-rich-presence:
+        current level: Sand Ocean
+        free cam:
+                position: { x: 633.966, y: 97.2505, z: -2790.34 }
+                yaw: 680.368
+                pitch: -18.1428
+sa2-discord-rich-presence:
+        current level: Weapons Bed
+        free cam:
+                position: { x: 315.048, y: -102.4, z: -1200.22 }
+                yaw: -563.294
+                pitch: -5.97143
+sa2-discord-rich-presence:
+        current level: Hidden Base
+        free cam:
+                position: { x: -3839.17, y: 939.203, z: -4901.49 }
+                yaw: 978.898
+                pitch: 2.75235
+sa2-discord-rich-presence:
+        current level: Pyramid Cave
+        free cam:
+                position: { x: -2535.47, y: -1994.52, z: -10630.3 }
+                yaw: 1311.51
+                pitch: 15.7048
+sa2-discord-rich-presence:
+        current level: Cosmic Wall
+        free cam:
+                position: { x: 4958.79, y: 4392.14, z: 12668.9 }
+                yaw: 2341.64
+                pitch: -18.2095
+sa2-discord-rich-presence:
+        current level: Lost Colony
+        free cam:
+                position: { x: -1381.47, y: -766.897, z: -1507.16 }
+                yaw: -150
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Eternal Engine
+        free cam:
+                position: { x: -55.0366, y: -1805.93, z: -9029.71 }
+                yaw: -30
+                pitch: -15
+sa2-discord-rich-presence:
+        current level: Crazy Gadget
+        free cam:
+                position: { x: -9527.15, y: -1095, z: -2577.41 }
+                yaw: -747.258
+                pitch: 15.6
+sa2-discord-rich-presence:
+        current level: Cannons Core (1/5)
+        free cam:
+                position: { x: -1815.39, y: -1214.26, z: -2272.44 }
+                yaw: -498.077
+                pitch: -8.36197
+sa2-discord-rich-presence:
+        current level: Cannons Core (2/5)
+        free cam:
+                position: { x: 53.8432, y: 37.9998, z: -1421.56 }
+                yaw: -391.085
+                pitch: -11.8286
+sa2-discord-rich-presence:
+        current level: Cannons Core (3/5)
+        free cam:
+                position: { x: 75.5894, y: 457.534, z: -80.1028 }
+                yaw: -857.294
+                pitch: -56.6667
+sa2-discord-rich-presence:
+        current level: Cannons Core (4/5)
+        free cam:
+                position: { x: 92.9482, y: 684.822, z: 154.803 }
+                yaw: -840
+                pitch: -15
+sa2-discord-rich-presence:
+        current level: Cannons Core (5/5)
+        free cam:
+                position: { x: -190.2, y: -446.4, z: -1779.74 }
+                yaw: -881.068
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Basic Test
+        free cam:
+                position: { x: 445.476, y: 144.9, z: 333.85 }
+                yaw: -138.077
+                pitch: -28.8571
+sa2-discord-rich-presence:
+        current level: Sonic Vs. Shadow 1
+        free cam:
+                position: { x: 76.6188, y: 9.79477, z: 166.572 }
+                yaw: 210
+                pitch: -15
+sa2-discord-rich-presence:
+        current level: Tails Vs. Dr. Eggman 1
+        free cam:
+                position: { x: 569.8, y: -66.8001, z: -549.457 }
+                yaw: -213.961
+                pitch: -9.56189
+sa2-discord-rich-presence:
+        current level: Tails Vs. Dr. Eggman 2
+        free cam:
+                position: { x: 66.959, y: -18.8, z: -204.382 }
+                yaw: -498.952
+                pitch: -27.6571
+sa2-discord-rich-presence:
+        current level: Green Hill
+        free cam:
+                position: { x: -638.17, y: 166.361, z: -3900.32 }
+                yaw: 143.438
+                pitch: -26.6667
+sa2-discord-rich-presence:
+        current level: Knuckles Vs. Rouge
+        free cam:
+                position: { x: -207.576, y: -274.203, z: 111.194 }
+                yaw: -29.9238
+                pitch: -12.419
+sa2-discord-rich-presence:
+        current level: Sonic Vs. Shadow 2
+        free cam:
+                position: { x: 3567.25, y: 31.2, z: 73.1346 }
+                yaw: -18.3238
+                pitch: -11.2762
+BEGINNER:
+sa2-discord-rich-presence:
+        current level: Kart Race
+        free cam:
+                position: { x: -1346.17, y: 720.506, z: 1488.64 }
+                yaw: -259.924
+                pitch: -25.1048
+NORMAL:
+sa2-discord-rich-presence:
+        current level: Kart Race
+        free cam:
+                position: { x: -2232.28, y: 236.85, z: 3263.6 }
+                yaw: -366.095
+                pitch: -0.285729
+EXPERT:
+sa2-discord-rich-presence:
+        current level: Kart Race
+        free cam:
+                position: { x: 1049.21, y: 1208.85, z: 863.467 }
+                yaw: -230.383
+                pitch: -10.4191
+
+Lobby:
+sa2-discord-rich-presence:
+        current level: Chao World
+        free cam:
+                position: { x: -79.7157, y: 67.2, z: 21.8805 }
+                yaw: 4.03745
+                pitch: -25.1429
+Neutral:
+sa2-discord-rich-presence:
+        current level: Chao World
+        free cam:
+                position: { x: 48.208, y: 3.55556, z: -75.7447 }
+                yaw: 184.837
+                pitch: 8.15238
+Chao Race Lobby?:
+sa2-discord-rich-presence:
+        current level: Chao World
+        free cam:
+                position: { x: 48.208, y: 3.55556, z: -75.7447 }
+                yaw: 184.837
+                pitch: 8.15238
+Hero:
+sa2-discord-rich-presence:
+        current level: Chao World
+        free cam:
+                position: { x: -89.7418, y: 2.87517, z: 49.5311 }
+                yaw: -410
+                pitch: 12.3048
+Dark:
+sa2-discord-rich-presence:
+        current level: Chao World
+        free cam:
+                position: { x: -38.6234, y: 1.2642, z: 6.73948 }
+                yaw: -335.447
+                pitch: 15.0857
+Kindergarten:
+sa2-discord-rich-presence:
+        current level: Chao World
+        free cam:
+                position: { x: 22.676, y: 11.5358, z: 133.874 }
+                yaw: -466.132
+                pitch: 6.49523
+NOT USED: idk what the actual value used is. I might replace current w/ this.
+sa2-discord-rich-presence:
+        current level: Chao Karate
+        free cam:
+                position: { x: -38.0839, y: 7.55556, z: 19.3126 }
+                yaw: -75
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Chao Race
+        free cam:
+                position: { x: 371.369, y: 61.3909, z: 198.269 }
+                yaw: -2205
+                pitch: 0
+Alternative:
+sa2-discord-rich-presence:
+        current level: Chao Race
+        free cam:
+                position: { x: 0, y: 25.4, z: 165 }
+                yaw: -2530
+                pitch: 0
+
+"Custom Stages/Ports"
+
+sa2-discord-rich-presence:
+        current level: Nintendo Gamecube
+        free cam:
+                position: { x: 314.908, y: 518.589, z: 529.099 }
+                yaw: -120
+                pitch: 315
+sa2-discord-rich-presence:
+        current level: Emerald Coast
+        free cam:
+                position: { x: 5642.83, y: 58.4042, z: 1245.27 }
+                yaw: -375
+                pitch: 375.99
+sa2-discord-rich-presence:
+        current level: Artisans
+        free cam:
+                position: { x: -74.1316, y: 484.952, z: -495.009 }
+                yaw: -60
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Apotos Stage Entrance Hub
+        free cam:
+                position: { x: 157.138, y: 350.63, z: -160.726 }
+                yaw: -390
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Soleanna Garden
+        free cam:
+                position: { x: -74.3379, y: 16.4587, z: -128.437 }
+                yaw: -255
+                pitch: 355.133
+sa2-discord-rich-presence:
+        current level: Windmill Isle Act 1 Unwiished
+        free cam:
+                position: { x: 18311, y: -719.911, z: 2679.11 }
+                yaw: -420
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Speed Highway
+        free cam:
+                position: { x: -333.049, y: 96.5292, z: -1253.22 }
+                yaw: -60
+                pitch: 30
+sa2-discord-rich-presence:
+        current level: Brimstone Blitz 661
+        free cam:
+                position: { x: 17234, y: -962.561, z: -17779.4 }
+                yaw: 64.2952
+                pitch: 356.238
+sa2-discord-rich-presence:
+        current level: Sinister Coil 666
+        free cam:
+                position: { x: 11621.2, y: -2284.46, z: -16278.5 }
+                yaw: -195
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Seaside Hill
+        free cam:
+                position: { x: 1394.79, y: 591.024, z: -40819.1 }
+                yaw: -75
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Ocean Palace
+        free cam:
+                position: { x: -324.676, y: 293.632, z: -45782.3 }
+                yaw: -210
+                pitch: 0
+sa2-discord-rich-presence:
+        current level: Glyphic Canyon
+        free cam:
+                position: { x: -3581.55, y: 508.06, z: 16780.5 }
+                yaw: -285
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Lethal Highway
+        free cam:
+                position: { x: -1233.3, y: 7850.73, z: -4855.68 }
+                yaw: 405
+                pitch: 375
+sa2-discord-rich-presence:
+        current level: Emerald Altar
+        free cam:
+                position: { x: 116.756, y: 136.325, z: 431.902 }
+                yaw: -825
+                pitch: 345
+sa2-discord-rich-presence:
+        current level: Egg Carrier Garden
+        free cam:
+                position: { x: -95.791, y: 76.7, z: 201.761 }
+                yaw: -420
+                pitch: 360
+sa2-discord-rich-presence:
+        current level: Station Square Garden
+        free cam:
+                position: { x: -155.94, y: 20.4074, z: -10.9619 }
+                yaw: -555
+                pitch: 345
+sa2-discord-rich-presence:
+        current level: Mystic Ruins Garden
+        free cam:
+                position: { x: 115.118, y: 14.6179, z: -90.8529 }
+                yaw: -240
+                pitch: 368.705

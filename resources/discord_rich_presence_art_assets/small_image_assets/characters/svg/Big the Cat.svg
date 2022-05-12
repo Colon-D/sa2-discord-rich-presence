@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Asset" x="0" y="0" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512">
+  <circle id="Background_Color" cx="256" cy="256" r="224" style="fill:#AC78FF"/>
+  <g id="Character_Circle">
+    <defs>
+      <circle id="SVGID_1_" cx="256" cy="256" r="224"/>
+    </defs>
+    <clipPath id="SVGID_00000040573463579389553960000009945556191670872704_">
+      <use xlink:href="#SVGID_1_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_00000040573463579389553960000009945556191670872704_)">
+      <image xlink:href="Big the Cat.png" id="Character" width="1000" height="1029" enable-background="new" overflow="visible" transform="matrix(-1.4577 0 0 1.4577 786.863 -58.701)"/>
+    </g>
+  </g>
+  <g id="Outline">
+    <circle cx="256" cy="256" r="236.5" style="fill:none;stroke:#000000;stroke-width:39;stroke-miterlimit:10"/>
+    <radialGradient id="SVGID_00000178902827955666332540000013335179442972327565_" cx="256" cy="824" r="256" gradientTransform="translate(0 -568)" gradientUnits="userSpaceOnUse">
+      <stop offset=".978" stop-color="#121212"/>
+      <stop offset="1" stop-color="#171717"/>
+    </radialGradient>
+    <circle cx="256" cy="256" r="248" fill="none" stroke="url(#SVGID_00000178902827955666332540000013335179442972327565_)" stroke-miterlimit="10" stroke-width="16"/>
+    <radialGradient id="SVGID_00000043456674368801012370000018413874056898615998_" cx="256" cy="824" r="217" gradientTransform="translate(0 -568)" gradientUnits="userSpaceOnUse">
+      <stop offset=".93" stop-color="#060606" stop-opacity="0"/>
+      <stop offset=".994" stop-color="#030303" stop-opacity=".282"/>
+      <stop offset="1" stop-color="#020202" stop-opacity=".31"/>
+    </radialGradient>
+    <circle cx="256" cy="256" r="217" fill="url(#SVGID_00000043456674368801012370000018413874056898615998_)"/>
+    <circle cx="256" cy="256" r="238.5" style="fill:none;stroke:#FFFFFF;stroke-width:26;stroke-miterlimit:10"/>
+  </g>
+</svg>

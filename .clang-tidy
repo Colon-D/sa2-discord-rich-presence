@@ -1,0 +1,32 @@
+Checks: '
+  -*,
+
+  bugprone-*,
+  cert-*,
+  clang-analyzer-*,
+  cppcoreguidelines-*,
+  llvm-*,
+  misc-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  readability-*,
+
+  -bugprone-integer-division,
+  -*-uppercase-literal-suffix,
+  -cppcoreguidelines-pro-type-reinterpret-cast,
+  -cppcoreguidelines-pro-type-union-access,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -readability-identifier-length,
+  -performance-no-int-to-ptr,
+  -modernize-use-trailing-return-type,
+  -cppcoreguidelines-avoid-non-const-global-variables,
+  -*-magic-numbers,
+  -cppcoreguidelines-pro-type-const-cast,
+  -cert-err58-cpp,
+  -bugprone-easily-swappable-parameters,
+  -misc-non-private-member-variables-in-classes,
+  -cppcoreguidelines-pro-bounds-constant-array-index,
+  -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
+  -bugprone-branch-clone
+'

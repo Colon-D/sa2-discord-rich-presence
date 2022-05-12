@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Asset" x="0" y="0" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512">
+  <circle id="Background_Color" cx="256" cy="256" r="224" fill="#BCBCBC"/>
+  <g id="Character_Circle">
+    <defs>
+      <circle id="SVGID_1_" cx="256" cy="256" r="224"/>
+    </defs>
+    <clipPath id="SVGID_00000016050652732680076030000004777773878726850690_">
+      <use xlink:href="#SVGID_1_" overflow="visible"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_00000016050652732680076030000004777773878726850690_)">
+      <image xlink:href="Dr. Eggman.png" id="Character" width="1000" height="1170" enable-background="new    " overflow="visible" transform="matrix(-1.75 0 0 1.75 1142 64.5)"/>
+    </g>
+  </g>
+  <g id="Outline">
+    <circle cx="256" cy="256" r="236.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="39"/>
+    <radialGradient id="SVGID_00000182526039171309043040000012207613794048918939_" cx="256" cy="824" r="256" gradientTransform="translate(0 -568)" gradientUnits="userSpaceOnUse">
+      <stop offset=".978" stop-color="#121212"/>
+      <stop offset="1" stop-color="#171717"/>
+    </radialGradient>
+    <circle cx="256" cy="256" r="248" fill="none" stroke="url(#SVGID_00000182526039171309043040000012207613794048918939_)" stroke-miterlimit="10" stroke-width="16"/>
+    <radialGradient id="SVGID_00000000189895503557508960000000477309325225891263_" cx="256" cy="824" r="217" gradientTransform="translate(0 -568)" gradientUnits="userSpaceOnUse">
+      <stop offset=".93" stop-color="#0C0C0C" stop-opacity="0"/>
+      <stop offset=".994" stop-color="#070707" stop-opacity=".282"/>
+      <stop offset="1" stop-color="#040404" stop-opacity=".31"/>
+    </radialGradient>
+    <circle cx="256" cy="256" r="217" fill="url(#SVGID_00000000189895503557508960000000477309325225891263_)"/>
+    <circle cx="256" cy="256" r="238.5" fill="none" stroke="#FFF" stroke-miterlimit="10" stroke-width="26"/>
+  </g>
+</svg>
