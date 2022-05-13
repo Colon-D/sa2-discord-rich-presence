@@ -1,6 +1,6 @@
 # Discord Rich Presence
 
-This mod adds Discord Rich Presence to the game, similar to [DiscordSADX](https://gamebanana.com/tools/6405) except not similar at all because this is made by me and not SuperSonic16.
+This mod adds Discord Rich Presence to the game, similar to [DiscordSADX](https://gamebanana.com/tools/6405) except not similar at all because this is made by me and not [SuperSonic16](https://gamebanana.com/members/1605939).
 
 The Rich Presence will look different depending on what you are doing in the game, but in general:
 - The Action Stage will be shown through the Large Image.
