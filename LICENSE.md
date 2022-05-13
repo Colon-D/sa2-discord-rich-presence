@@ -1,7 +1,3 @@
-Copied from README.md.
-
----
-
 It's complicated 🙃. I hate licenses.
 
 My code is under [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/), apart from under comments stating I have stolen something.
@@ -54,3 +50,4 @@ Other (referenced and not already attributed):
 - [Chao World Extended](https://gamebanana.com/mods/48840) by [DarkyBenji](https://gamebanana.com/members/1515314) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 - [Chao Karate: Buster's Tournament](https://gamebanana.com/mods/48869) by [CGBuster](https://gamebanana.com/members/1633884) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 - [SA2 Super Sonic / Shadow](https://gamebanana.com/mods/340288) by [Sora_yx](https://gamebanana.com/members/1693553) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+- [SA2 Debug Mode](https://gamebanana.com/mods/349067) by [Sora_yx](https://gamebanana.com/members/1693553) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
