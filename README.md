@@ -9,9 +9,9 @@ The Rich Presence will look different depending on what you are doing in the gam
 - The Timer will be shown through the Timestamps.
 - Being paused will be shown through the State, alongside the Boss if applicable.
 
-Example:
+Examples:
 
-<img src="resources/README/example.png" alt="Example Image of Discord Rich Presence" width="32%">
+<img src="resources/README/example.png" alt="Example Image of Discord Rich Presence" width="32%"> <img src="resources/README/example_2.png" alt="Another Example Image of Discord Rich Presence" width="32%">
 
 Other scenarios like being in the Menus, watching Events, Multiplayer, doing Chao stuff will display differently. The code is very messy, as I kept adding unneeded features and then removing them, so I can not exactly remember what is programmed to display on the Rich Presense and when.
 
