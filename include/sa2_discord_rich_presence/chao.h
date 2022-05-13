@@ -73,20 +73,12 @@ struct name_and_image_asset_boolean {
 	bool has_image_asset{ false };
 };
 
-/// \param chao_race_course needed for the course name of a Chao Race
-/// \param chao_race_level needed for the course name of a Chao Race
 std::string chao_area_name(
-	chao_area                   chao_area,
-	std::optional<std::uint8_t> chao_race_course = {},
-	std::optional<std::uint8_t> chao_race_level = {}
+	chao_area chao_area
 );
 
-/// \param chao_race_course needed for the course name of a Chao Race
-/// \param chao_race_level needed for the course name of a Chao Race
 name_and_image_asset_boolean chao_area_name_and_image_asset_boolean(
-	chao_area                   chao_area,
-	std::optional<std::uint8_t> chao_race_course = {},
-	std::optional<std::uint8_t> chao_race_level = {}
+	chao_area chao_area
 );
 
 /// set name from chao_area, not including:

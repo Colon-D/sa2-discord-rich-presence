@@ -254,20 +254,12 @@ std::unordered_map<chao_area, name_and_image_asset_boolean> chao_area_names{
 	{ chao_area::chao_karate,            { "Chao Karate"           , true } }
 };
 
-std::string chao_area_name(
-	const chao_area                   chao_area,
-	const std::optional<std::uint8_t> chao_race_course,
-	const std::optional<std::uint8_t> chao_race_level
-) {
-	return chao_area_name_and_image_asset_boolean(
-		chao_area, chao_race_course, chao_race_level
-	).name;
+std::string chao_area_name(const chao_area chao_area) {
+	return chao_area_name_and_image_asset_boolean(chao_area).name;
 }
 
 name_and_image_asset_boolean chao_area_name_and_image_asset_boolean(
-	chao_area                         chao_area,
-	const std::optional<std::uint8_t> chao_race_course,
-	const std::optional<std::uint8_t> chao_race_level
+	chao_area chao_area
 ) {
 	switch (chao_area) {
 	case chao_area::chao_lobby_alternative:
@@ -302,14 +294,6 @@ void set_chao_area_name(
 	const auto chao_area_name = chao_area_names.find(chao_area);
 	assert(chao_area_name != chao_area_names.end());
 	chao_area_name->second = { name, has_image_asset };
-}
-
-std::string current_chao_area_name() {
-	return chao_area_name(
-		current_chao_area,
-		current_chao_race_course,
-		current_chao_race_level
-	);
 }
 
 const char* chao_name_decoding_not_allowed_exception::what() const noexcept {

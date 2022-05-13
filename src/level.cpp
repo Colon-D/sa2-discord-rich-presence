@@ -6,11 +6,10 @@
 #include "sa2_discord_rich_presence/level_timer.h"
 #include "sa2_discord_rich_presence/player.h"
 #include "sa2_discord_rich_presence/timer.h"
-#include "sa2_discord_rich_presence/ini_settings.h"
 #include <array>
+#include <cassert>
 #include <format>
 #include <string>
-#include <cassert>
 
 std::unordered_map<LevelIDs, name_and_image_asset_boolean> level_names{
 	{ LevelIDs::LevelIDs_BasicTest,       { "Basic Test"                , true } },
@@ -183,10 +182,7 @@ current_level_name_and_image_asset_boolean() {
 		}
 		return {};
 	case LevelIDs::LevelIDs_ChaoWorld:
-		return chao_area_name_and_image_asset_boolean(
-			current_chao_area,
-			current_chao_race_course
-		);
+		return chao_area_name_and_image_asset_boolean(current_chao_area);
 	default:
 		return level_name_and_image_asset_boolean(current_level);
 	}

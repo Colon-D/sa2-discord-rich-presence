@@ -1,7 +1,7 @@
 #pragma once
 #include "sa2_discord_rich_presence/modding.h"
-#include <string>
 #include <optional>
+#include <string>
 
 // Based off of SA2 Mod Loader's event names:
 // https://github.com/X-Hax/sa2-mod-loader/blob/854dacb678206eeae22e6f21455d56935289ec9a/SA2ModManager/MainForm.cs#L1399
