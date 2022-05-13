@@ -56,7 +56,7 @@ std::optional<frames> time_elapsed_in_level() {
 		// for the kart race timer, along with whether the race had ended, but
 		// I don't care)
 		if (CurrentLevel == LevelIDs::LevelIDs_KartRace) {
-			time_elapsed += seconds{ 7 };
+			time_elapsed -= seconds{ 7 };
 		}
 		return time_elapsed;
 	}
