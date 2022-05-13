@@ -19,6 +19,14 @@ Some features are omitted to try not clutter the Rich Presence (like score). Oth
 
 Most of the RPC will be bad, I am not good at designing things.
 
+The "Author"s section in the mod's properties will only contain me.
+It will not contain the name of those involved with the mods/resources I used
+to create this mod.
+This is because I do not wish to imply that they endorse me.
+Perhaps this is the wrong thing to do. I am not good at handling things
+involving others, and this mod uses other's resources a lot.
+It worries me a lot, so I am very sorry if I have messed up.
+
 # Compatibility
 
 Coded to support:
