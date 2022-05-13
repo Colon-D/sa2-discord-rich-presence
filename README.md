@@ -95,6 +95,7 @@ Discord Art Assets:
       - [Glyphic Canyon](https://gamebanana.com/mods/348096) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
       - [Lethal Highway](https://gamebanana.com/mods/361081) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
       - [SA2 Past Garden](https://gamebanana.com/mods/358991) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+      - [Chao World Extended](https://gamebanana.com/mods/48840)'s SADX Gardens - [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)
   - The "unknown" image asset is from [HD GUI for Character Select Plus](https://gamebanana.com/mods/33162) - [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
   - The "menu" image asset is from [HD GUI: SA2 Edition](https://gamebanana.com/mods/33171) - [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
